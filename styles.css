@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
+    
+    --preto: #000000ff;
+    --carvao: #2f4550ff;
+    --cinza: #586f7cff;
+    --azul: #b8dbd9ff;
+    --branco: #f4f4f9ff;
     --laranja-claro: #FF862A;
 }
 
@@ -11,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: var(--azul);
 }
 
 
@@ -21,13 +27,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--preto);
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -57,7 +63,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--carvao);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -98,11 +104,11 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--carvao);
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: var(--cinza);
 
 }
 

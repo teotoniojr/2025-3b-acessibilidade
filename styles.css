@@ -118,7 +118,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo.png');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -137,7 +137,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: var(--carvao);
     border: none;
     font-weight: bold;
 }
@@ -146,3 +146,11 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
+
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+

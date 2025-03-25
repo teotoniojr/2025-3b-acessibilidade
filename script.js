@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     botaoAcessibilidade.addEventListener('click', function(){
         botaoAcessibilidade.classList.toggle('rotacao-menu');
-        opcoesAcessibilidade.classList.toggle('apresenta-lista');
+        opcoesAcessibilidade.classList.toggle('opcoes-acessibilidade');
     })
 
 
